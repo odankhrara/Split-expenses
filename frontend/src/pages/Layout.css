@@ -1,0 +1,168 @@
+.page {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.page h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.page h2 {
+  font-size: 1.1rem;
+  margin: 1.25rem 0 0.5rem;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.nav-links a {
+  color: var(--link, #0a7ea4);
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.card-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card-list li {
+  margin-bottom: 0.5rem;
+}
+
+.card {
+  display: block;
+  padding: 0.75rem 1rem;
+  background: var(--card-bg, #f5f5f5);
+  border-radius: 8px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.card:hover {
+  background: var(--card-hover, #eee);
+}
+
+.card strong {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.card.positive { border-left: 4px solid #0a7; }
+.card.negative { border-left: 4px solid #c00; }
+
+.form,
+.form-inline {
+  margin-bottom: 1rem;
+}
+
+.form label,
+.form-inline label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-inline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.form-inline input {
+  width: 120px;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="number"],
+.form select {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.form fieldset {
+  margin: 1rem 0;
+  padding: 0.75rem;
+  border-radius: 6px;
+}
+
+.form .checkbox,
+.form .checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  margin-bottom: 0.35rem;
+  padding: 0.25rem 0;
+}
+
+.form .checkbox input,
+.form .checkbox-row input {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin: 0;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.form small,
+.form-inline small {
+  display: block;
+  margin-top: 0.25rem;
+  color: #666;
+  font-size: 0.85rem;
+}
+
+.form button,
+.form-inline button {
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  background: var(--btn-bg, #0a7ea4);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.form button:disabled,
+.form-inline button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.btn-sm {
+  padding: 0.35rem 0.75rem;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  background: #666;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.error {
+  color: #c00;
+}
+
+.muted {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
